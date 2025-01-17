@@ -87,6 +87,15 @@ header {
     padding: 2px;
 }
 
+.proj a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.proj h3 {
+    font-size: 1em;
+}
+
 .card {
     margin-bottom: 100px;
     width: 70%;
@@ -128,7 +137,7 @@ button.btn {
     width: 100vw;
 }
 
-button.carousel-control {
+.carousel-control {
     align-items: center;
     display: flex;
     justify-content: center;
