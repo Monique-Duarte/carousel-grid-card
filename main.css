@@ -1,0 +1,290 @@
+body{
+    background-image: url(./img/stars-13910.gif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+}
+
+.card-body {
+    font-size: 0.7em;
+}
+
+header {
+    max-height: 300px;
+}
+
+.info img{
+    margin-bottom: 16px;
+    margin-right: 24px;
+}
+
+.titulo h1 {
+    align-items: center;
+    text-align: center;
+}
+
+.info h2{
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+.id {
+    margin-bottom: 0%;
+}
+
+.qualis img {
+    width: 40px;
+    height: 30px;
+}
+
+.container .qualis {
+    margin-top: 0;
+    padding: 0%;
+}
+
+.lado .foto img {
+    width: 200px;
+    height: 200px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.card-header{
+    background-color: #CCC;
+}
+
+.container {
+    margin-top: 48px;
+}
+
+.lado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato {
+    display: block;
+}
+
+.contato img {
+    margin-left: 30px;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.proj h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 32px;
+    max-width: 100%;
+    width: 91%;
+    padding: 2px;
+}
+
+.card {
+    margin-bottom: 100px;
+    width: 70%;
+}
+
+.row {
+    justify-content: center;
+}
+
+footer {
+    color: #fff;
+    border-top: 1px solid #333;
+    bottom: 0px;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+}
+
+footer p {
+    margin-top: 6px;
+}
+
+a.btn.btn-primary,
+a.btn.btn-dark {
+    width: 100%;
+    height: 100%;
+}
+
+ul.dropdown-menu {
+    padding: 0px;
+}
+
+button.btn {
+    width: 100%;
+}
+
+.carousel img {
+    width: 100vw;
+}
+
+button.carousel-control {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel img {
+    max-height: 350px;
+    overflow-y: hidden;
+}
+
+@media screen and (max-width: 640px) {
+    .card-body {
+        font-size: 0.5em;
+    }
+    
+    header {
+        max-height: 150px;
+        max-width: 100%;
+    }
+    
+    .info img{
+        margin-bottom: 6px;
+        margin-right: 0px;
+        width: 45px;
+    }
+
+    .id h1{
+        font-size: 1.2em;
+    }
+    
+    .titulo h1 {
+        align-items: center;
+        text-align: center;
+        background-color: rgb(52, 111, 163);
+    }
+    
+    .info h2{
+        font-size: 0.5em;
+        line-height: 1;
+    }
+    
+    .id {
+        margin-bottom: 0%;
+    }
+    
+    .qualis img {
+        width: 20px;
+        height: 15px;
+    }
+    
+    .container.qualis {
+        margin-top: 0;
+        padding: 0%;
+        display: flex;
+    }
+    
+    .lado .foto img {
+        width: 100px;
+        height: 100px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    .conteudo {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .container {
+        margin-top: 24px;
+        align-items: center;
+        display: flex;
+    }
+    
+    .lado {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        font-size: 0.8em;
+    }
+
+    .conteudo {
+        width: 50%;
+    }
+    
+    .contato {
+        display: block;
+        position: relative;
+    }
+    
+    .contato img,
+    .contato a {
+        width: 45px;
+        height: 15px;
+        margin-top: 6px;
+        display: flex;
+        position: relative;
+    }
+
+    .container,
+    .row, 
+    .card,
+    .col-4 {
+        width: 100%;
+        justify-self: center;
+    }
+
+    .col-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .proj {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container .row {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    .container{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .info h2{
+        font-size: 1em;
+        line-height: 1;
+    }
+
+    .qualis img {
+        width: 30px;
+        height: 20px;
+    }
+
+    .container {
+    margin-top: 30px;
+}
+
+    .col-4 {
+    width: 40%;
+    }
+
+    .card-header {
+        font-size: 0.7em;
+    }
+
+    .card-body {
+        font-size: 0.6em;
+    }
+
+}
